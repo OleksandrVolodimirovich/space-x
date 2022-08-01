@@ -1,11 +1,9 @@
+import React from 'react'
+
+const app = React.createElement('div', {className: 'App'}, 'Hello world')
 
 function App() {
-  return (
-    <div className="App">
-      
-    </div>
-    
-  );
+  return app;
 }
 
 export default App;
